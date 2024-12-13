@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #00222e;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #004455;
+            color: #f7b601;
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003344;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #ff4444;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .search-bar {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 5px;
+            font-size: 1em;
+        }
+
+        .search-bar input[type="submit"] {
+            padding: 5px 10px;
+            font-size: 1em;
+            background-color: #006666;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .search-bar input[type="submit"]:hover {
+            background-color: #005555;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .article {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            color: #f7b601;
+        }
+
+        .box {
+            border: 1px solid #00aaff;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .related {
+            margin-top: 20px;
+        }
+
+        .related a {
+            color: #ffff00;
+            text-decoration: none;
+            display: block;
+        }
+
+        .related a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #00171a;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Our team</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="search-bar">
+        <form>
+            <input type="text" placeholder="Search query">
+            <input type="submit" value="Go!">
+        </form>
+    </div>
+
+    <main>
+        <article class="article">
+            <h1>Article heading</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+        </article>
+
+        <section class="box">
+            <h2>Subsection</h2>
+            <p>Donec ut libero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+            <p>Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+        </section>
+
+        <section class="box">
+            <h2>Another subsection</h2>
+            <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+            <p>Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringilla sem nunc vet mi.</p>
+        </section>
+        <div class="related">
+            <h3>Related</h3>
+            <ul>
+                <li><a href="#" style="color: red;">Oh I do like to be beside the seaside</a></li>
+                <li><a href="#" style="color: red;">Oh I do like to be beside the sea</a></li>
+                <li><a href="#" style="color: red;">Although in the North of England</a></li>
+                <li><a href="#" style="color: red;">It never stops raining</a></li>
+                <li><a href="#" style="color: red;">Oh well...</a></li>
+            </ul>
+        </div>
+        
+        
